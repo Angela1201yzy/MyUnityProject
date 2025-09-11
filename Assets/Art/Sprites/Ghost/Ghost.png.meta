@@ -205,7 +205,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost_0
+      name: PurpleGhost_Down01
       rect:
         serializedVersion: 2
         x: 3
@@ -213,7 +213,7 @@ TextureImporter:
         width: 44
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,7 +226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_1
+      name: PurpleGhost_Down02
       rect:
         serializedVersion: 2
         x: 53
@@ -234,7 +234,7 @@ TextureImporter:
         width: 44
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,7 +247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_2
+      name: PurpleGhost_Left01
       rect:
         serializedVersion: 2
         x: 113
@@ -255,7 +255,7 @@ TextureImporter:
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,7 +268,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_3
+      name: PurpleGhost_Left02
       rect:
         serializedVersion: 2
         x: 162
@@ -276,7 +276,7 @@ TextureImporter:
         width: 37
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,7 +289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_4
+      name: PurpleGhost_Right01
       rect:
         serializedVersion: 2
         x: 206
@@ -297,7 +297,7 @@ TextureImporter:
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,7 +310,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_5
+      name: PurpleGhost_Right02
       rect:
         serializedVersion: 2
         x: 251
@@ -318,7 +318,7 @@ TextureImporter:
         width: 37
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,7 +331,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_6
+      name: PurpleGhost_Up01
       rect:
         serializedVersion: 2
         x: 3
@@ -339,7 +339,7 @@ TextureImporter:
         width: 44
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,7 +352,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_7
+      name: PurpleGhost_Up02
       rect:
         serializedVersion: 2
         x: 53
@@ -360,7 +360,7 @@ TextureImporter:
         width: 44
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -373,7 +373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_8
+      name: BlueGhost_Down01
       rect:
         serializedVersion: 2
         x: 103
@@ -381,7 +381,7 @@ TextureImporter:
         width: 44
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -394,7 +394,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_9
+      name: BlueGhost_Down02
       rect:
         serializedVersion: 2
         x: 153
@@ -402,7 +402,7 @@ TextureImporter:
         width: 44
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,7 +415,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_10
+      name: BlueGhost_Left01
       rect:
         serializedVersion: 2
         x: 213
@@ -423,7 +423,7 @@ TextureImporter:
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,7 +436,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_11
+      name: BlueGhost_Left02
       rect:
         serializedVersion: 2
         x: 262
@@ -444,7 +444,7 @@ TextureImporter:
         width: 37
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,7 +457,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_12
+      name: BlueGhost_Right01
       rect:
         serializedVersion: 2
         x: 6
@@ -465,7 +465,7 @@ TextureImporter:
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,7 +478,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_13
+      name: BlueGhost_Right02
       rect:
         serializedVersion: 2
         x: 51
@@ -486,7 +486,7 @@ TextureImporter:
         width: 37
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,7 +499,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_14
+      name: BlueGhost_Up01
       rect:
         serializedVersion: 2
         x: 103
@@ -507,7 +507,7 @@ TextureImporter:
         width: 44
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -520,7 +520,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_15
+      name: BlueGhost_Up02
       rect:
         serializedVersion: 2
         x: 153
@@ -528,7 +528,7 @@ TextureImporter:
         width: 44
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,7 +541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_16
+      name: RedGhost_Down01
       rect:
         serializedVersion: 2
         x: 203
@@ -549,7 +549,7 @@ TextureImporter:
         width: 44
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -562,7 +562,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_17
+      name: RedGhost_Down02
       rect:
         serializedVersion: 2
         x: 253
@@ -570,7 +570,7 @@ TextureImporter:
         width: 44
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -583,7 +583,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_18
+      name: RedGhost_Left01
       rect:
         serializedVersion: 2
         x: 13
@@ -591,7 +591,7 @@ TextureImporter:
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -604,7 +604,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_19
+      name: RedGhost_Left02
       rect:
         serializedVersion: 2
         x: 62
@@ -612,7 +612,7 @@ TextureImporter:
         width: 37
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -625,7 +625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_20
+      name: RedGhost_Right01
       rect:
         serializedVersion: 2
         x: 106
@@ -633,7 +633,7 @@ TextureImporter:
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -646,15 +646,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_21
+      name: RedGhost_Right02
       rect:
         serializedVersion: 2
         x: 151
-        y: 101
+        y: 102
         width: 37
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -667,7 +667,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_22
+      name: RedGhost_Up01
       rect:
         serializedVersion: 2
         x: 203
@@ -675,7 +675,7 @@ TextureImporter:
         width: 44
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -688,7 +688,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_23
+      name: RedGhost_Up02
       rect:
         serializedVersion: 2
         x: 253
@@ -696,7 +696,7 @@ TextureImporter:
         width: 44
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -709,7 +709,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_24
+      name: YellowGhost_Down01
       rect:
         serializedVersion: 2
         x: 3
@@ -717,7 +717,7 @@ TextureImporter:
         width: 44
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -730,7 +730,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_25
+      name: YellowGhost_Down02
       rect:
         serializedVersion: 2
         x: 53
@@ -738,7 +738,7 @@ TextureImporter:
         width: 44
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -751,7 +751,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_26
+      name: YellowGhost_Left01
       rect:
         serializedVersion: 2
         x: 113
@@ -759,7 +759,7 @@ TextureImporter:
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -772,7 +772,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_27
+      name: YellowGhost_Left02
       rect:
         serializedVersion: 2
         x: 162
@@ -780,7 +780,7 @@ TextureImporter:
         width: 37
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -793,7 +793,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_28
+      name: YellowGhost_Right01
       rect:
         serializedVersion: 2
         x: 206
@@ -801,7 +801,7 @@ TextureImporter:
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -814,7 +814,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_29
+      name: YellowGhost_Right02
       rect:
         serializedVersion: 2
         x: 251
@@ -822,7 +822,7 @@ TextureImporter:
         width: 37
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -835,7 +835,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_30
+      name: YellowGhost_Up01
       rect:
         serializedVersion: 2
         x: 3
@@ -843,7 +843,7 @@ TextureImporter:
         width: 44
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -856,7 +856,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_31
+      name: YellowGhost_Up02
       rect:
         serializedVersion: 2
         x: 53
@@ -864,7 +864,7 @@ TextureImporter:
         width: 44
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -877,15 +877,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_32
+      name: Scared_01
       rect:
         serializedVersion: 2
         x: 103
-        y: 0
+        y: 1
         width: 44
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -898,7 +898,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_33
+      name: Scared_02
       rect:
         serializedVersion: 2
         x: 153
@@ -906,7 +906,7 @@ TextureImporter:
         width: 44
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -919,7 +919,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_34
+      name: Dead_01
       rect:
         serializedVersion: 2
         x: 206
@@ -927,7 +927,7 @@ TextureImporter:
         width: 38
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -940,7 +940,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost_35
+      name: Dead_02
       rect:
         serializedVersion: 2
         x: 254
@@ -948,7 +948,7 @@ TextureImporter:
         width: 42
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -971,42 +971,42 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ghost_0: 1739476739
-      Ghost_1: 182638390
-      Ghost_10: -862869767
-      Ghost_11: -1302971019
-      Ghost_12: 768435624
-      Ghost_13: -473063542
-      Ghost_14: -688792774
-      Ghost_15: -49642241
-      Ghost_16: -1947458877
-      Ghost_17: 239528388
-      Ghost_18: 1167613904
-      Ghost_19: 1906533083
-      Ghost_2: 1940675705
-      Ghost_20: -636479227
-      Ghost_21: -214965773
-      Ghost_22: 1550178567
-      Ghost_23: 1074341990
-      Ghost_24: 989224208
-      Ghost_25: -1002786162
-      Ghost_26: 1838661058
-      Ghost_27: 1108306530
-      Ghost_28: 1967329656
-      Ghost_29: -421814637
-      Ghost_3: -1915997185
-      Ghost_30: -402790
-      Ghost_31: -1285922627
-      Ghost_32: -869603977
-      Ghost_33: 801056093
-      Ghost_34: 27055379
-      Ghost_35: -2135857037
-      Ghost_4: -2044845933
-      Ghost_5: 1745174207
-      Ghost_6: -1485482033
-      Ghost_7: 239490516
-      Ghost_8: -894226725
-      Ghost_9: 524657626
+      BlueGhost_Down01: -894226725
+      BlueGhost_Down02: 524657626
+      BlueGhost_Left01: -862869767
+      BlueGhost_Left02: -1302971019
+      BlueGhost_Right01: 768435624
+      BlueGhost_Right02: -473063542
+      BlueGhost_Up01: -688792774
+      BlueGhost_Up02: -49642241
+      Dead_01: 27055379
+      Dead_02: -2135857037
+      PurpleGhost_Down01: 1739476739
+      PurpleGhost_Down02: 182638390
+      PurpleGhost_Left01: 1940675705
+      PurpleGhost_Left02: -1915997185
+      PurpleGhost_Right01: -2044845933
+      PurpleGhost_Right02: 1745174207
+      PurpleGhost_Up01: -1485482033
+      PurpleGhost_Up02: 239490516
+      RedGhost_Down01: -1947458877
+      RedGhost_Down02: 239528388
+      RedGhost_Left01: 1167613904
+      RedGhost_Left02: 1906533083
+      RedGhost_Right01: -636479227
+      RedGhost_Right02: -214965773
+      RedGhost_Up01: 1550178567
+      RedGhost_Up02: 1074341990
+      Scared_01: -869603977
+      Scared_02: 801056093
+      YellowGhost_Down01: 989224208
+      YellowGhost_Down02: -1002786162
+      YellowGhost_Left01: 1838661058
+      YellowGhost_Left02: 1108306530
+      YellowGhost_Right01: 1967329656
+      YellowGhost_Right02: -421814637
+      YellowGhost_Up01: -402790
+      YellowGhost_Up02: -1285922627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

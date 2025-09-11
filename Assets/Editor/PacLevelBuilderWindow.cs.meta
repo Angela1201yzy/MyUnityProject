@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: daabd24d457d13a4fbd56aa6fcc7813e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - OutsideCornerSprite: {fileID: 21300000, guid: 561ff2ebacdb31c448f93610e34f2520, type: 3}
+  - OutsideWallSprite: {fileID: 21300000, guid: 778abb009e9ae974e90182ab060c66aa, type: 3}
+  - InsideCornerSprite: {fileID: 21300000, guid: fd2c17e8f0275234f9ccfaa5a2c931ac, type: 3}
+  - InsideWallSprite: {fileID: 21300000, guid: 06024bc1370c34f4485b0a4c50cf6e0a, type: 3}
+  - EmptyWithPelletSprite: {fileID: 7391834688492569113, guid: 7588512540b14a24d838de8c59452292, type: 3}
+  - PowerPelletSprite: {fileID: -4405721588880470262, guid: 7588512540b14a24d838de8c59452292, type: 3}
+  - TJunctionSprite: {fileID: 21300000, guid: 073d202b3d0a9564db531f038084de6a, type: 3}
+  - GhostExitSprite: {fileID: 21300000, guid: 9206c4fe6f8686f46b58b85b75a94bea, type: 3}
+  - BackgroundSprite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
