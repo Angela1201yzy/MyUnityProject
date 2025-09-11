@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: e117fd65cbde26343bec69f5f5c6d1f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5899927303015767666
+    second: Ghost_0
+  - first:
+      213: 6824852377700625651
+    second: Ghost_1
+  - first:
+      213: -1720829479360743675
+    second: Ghost_2
+  - first:
+      213: 961504700816514905
+    second: Ghost_3
+  - first:
+      213: -5178447075761725730
+    second: Ghost_4
+  - first:
+      213: 8991445823508332458
+    second: Ghost_5
+  - first:
+      213: -923108277791623692
+    second: Ghost_6
+  - first:
+      213: -4121637456501685004
+    second: Ghost_7
+  - first:
+      213: -2205440430153107873
+    second: Ghost_8
+  - first:
+      213: 7434381711262100580
+    second: Ghost_9
+  - first:
+      213: 7387920548191155356
+    second: Ghost_10
+  - first:
+      213: -2117901830842484608
+    second: Ghost_11
+  - first:
+      213: 6983968517362155471
+    second: Ghost_12
+  - first:
+      213: 4728639059745115805
+    second: Ghost_13
+  - first:
+      213: 4119799616218041276
+    second: Ghost_14
+  - first:
+      213: 4957227349962821925
+    second: Ghost_15
+  - first:
+      213: 2149552878619432917
+    second: Ghost_16
+  - first:
+      213: 8129122798560382604
+    second: Ghost_17
+  - first:
+      213: -8084540536872135226
+    second: Ghost_18
+  - first:
+      213: -3508745269591255902
+    second: Ghost_19
+  - first:
+      213: 8674533576252769926
+    second: Ghost_20
+  - first:
+      213: 6647201616227316219
+    second: Ghost_21
+  - first:
+      213: -1217731857473686402
+    second: Ghost_22
+  - first:
+      213: 8345411657915940498
+    second: Ghost_23
+  - first:
+      213: -922975023691023901
+    second: Ghost_24
+  - first:
+      213: 7206886774756811620
+    second: Ghost_25
+  - first:
+      213: -1940987526304162283
+    second: Ghost_26
+  - first:
+      213: -7027651565807450158
+    second: Ghost_27
+  - first:
+      213: -3553394176623366912
+    second: Ghost_28
+  - first:
+      213: 1719047364687244877
+    second: Ghost_29
+  - first:
+      213: -3069803534451160899
+    second: Ghost_30
+  - first:
+      213: 3855805543534653044
+    second: Ghost_31
+  - first:
+      213: -4579914400128955055
+    second: Ghost_32
+  - first:
+      213: 6465034022656396722
+    second: Ghost_33
+  - first:
+      213: 1503416414170020202
+    second: Ghost_34
+  - first:
+      213: -3937909602834099257
+    second: Ghost_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PurpleGhost_Down01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 250
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4296d20c9d8ed45b7b3d483c01c5d6
+      internalID: 1739476739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleGhost_Down02
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 251
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd794cad1855ab448a2a38ab682d11a4
+      internalID: 182638390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleGhost_Left01
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 250
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd3140b70c06ab499a7d8b71bf8665a
+      internalID: 1940675705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleGhost_Left02
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 251
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a1be3ee21749845ad251163f6aa9b6
+      internalID: -1915997185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleGhost_Right01
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 250
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755303e4685192a4ca4cabb527a53d0e
+      internalID: -2044845933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleGhost_Right02
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 251
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00475aeba5e5f9c48a014a9cd4cdbf91
+      internalID: 1745174207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleGhost_Up01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 200
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89084584766e794ebb78e132c3216df
+      internalID: -1485482033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleGhost_Up02
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 201
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0287aa42b2df42247a92d1d6cddb9840
+      internalID: 239490516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueGhost_Down01
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 200
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752da4387d39279458e7996aea8497a5
+      internalID: -894226725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueGhost_Down02
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 201
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc13f3a53d7c7324a84ac9cafef80965
+      internalID: 524657626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueGhost_Left01
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 200
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcf283e0b98c194c9c83fb00563f0f1
+      internalID: -862869767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueGhost_Left02
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 201
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6384332ba7457b040ae4d1fc13393716
+      internalID: -1302971019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueGhost_Right01
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 150
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb1203138bc912448af8e1796784653
+      internalID: 768435624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueGhost_Right02
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 151
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafedb72c0602184b8613e8720d87d14
+      internalID: -473063542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueGhost_Up01
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 150
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa11d482ed5ad64089d2e73a632fa22
+      internalID: -688792774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueGhost_Up02
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 151
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a599ce3feb30c24a89eea1df60cc81f
+      internalID: -49642241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedGhost_Down01
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 150
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd9456897af4b2488f231876a4f425d
+      internalID: -1947458877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedGhost_Down02
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 151
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f682ccf07a7644db10bebe8af750b3
+      internalID: 239528388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedGhost_Left01
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 100
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972a89b16455c394f8c9844c83168034
+      internalID: 1167613904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedGhost_Left02
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 101
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d321c685ed89382459ad365ede2d1320
+      internalID: 1906533083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedGhost_Right01
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 100
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aea9add3e0d8f14fb2fffaeb142f2c5
+      internalID: -636479227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedGhost_Right02
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 102
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c85ceffe4a7af4d865d92f473c4300
+      internalID: -214965773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedGhost_Up01
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 100
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4483702612d30fd4890e2bc023d843f9
+      internalID: 1550178567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedGhost_Up02
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 101
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed83a7fe9dcfe5c4abd0d35b3fab6943
+      internalID: 1074341990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_Down01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 50
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8c69913e3dbab4caf7268e2464e704
+      internalID: 989224208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_Down02
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 51
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507f425655f33e54aa2ab7698d15145c
+      internalID: -1002786162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_Left01
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 50
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdc76e37a9a893469c11082fb363802
+      internalID: 1838661058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_Left02
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 51
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b597f0f1aa0e74fae1c00ba4291432
+      internalID: 1108306530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_Right01
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 50
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19394d839ff5a7d4fbecef6d793d825a
+      internalID: 1967329656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_Right02
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 51
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a1462ce60efa84bb9925b61db072b3
+      internalID: -421814637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_Up01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae55ec9d3cf6da4aa34749bada738f4
+      internalID: -402790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_Up02
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c346770c458df5848abe57f9d2024a5f
+      internalID: -1285922627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_01
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e6e9bd39be66143a1c384c880b6fd0
+      internalID: -869603977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scared_02
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d609c929ccf9b459c63c29e2be06a8
+      internalID: 801056093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead_01
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 9
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0497efad8709cda44842dd2afb5689fd
+      internalID: 27055379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead_02
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 9
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d56f230fd339c04184eb2838b3ef112
+      internalID: -2135857037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 16a6dd32d172f81489b0c6f8bec408cb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlueGhost_Down01: -894226725
+      BlueGhost_Down02: 524657626
+      BlueGhost_Left01: -862869767
+      BlueGhost_Left02: -1302971019
+      BlueGhost_Right01: 768435624
+      BlueGhost_Right02: -473063542
+      BlueGhost_Up01: -688792774
+      BlueGhost_Up02: -49642241
+      Dead_01: 27055379
+      Dead_02: -2135857037
+      PurpleGhost_Down01: 1739476739
+      PurpleGhost_Down02: 182638390
+      PurpleGhost_Left01: 1940675705
+      PurpleGhost_Left02: -1915997185
+      PurpleGhost_Right01: -2044845933
+      PurpleGhost_Right02: 1745174207
+      PurpleGhost_Up01: -1485482033
+      PurpleGhost_Up02: 239490516
+      RedGhost_Down01: -1947458877
+      RedGhost_Down02: 239528388
+      RedGhost_Left01: 1167613904
+      RedGhost_Left02: 1906533083
+      RedGhost_Right01: -636479227
+      RedGhost_Right02: -214965773
+      RedGhost_Up01: 1550178567
+      RedGhost_Up02: 1074341990
+      Scared_01: -869603977
+      Scared_02: 801056093
+      YellowGhost_Down01: 989224208
+      YellowGhost_Down02: -1002786162
+      YellowGhost_Left01: 1838661058
+      YellowGhost_Left02: 1108306530
+      YellowGhost_Right01: 1967329656
+      YellowGhost_Right02: -421814637
+      YellowGhost_Up01: -402790
+      YellowGhost_Up02: -1285922627
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
