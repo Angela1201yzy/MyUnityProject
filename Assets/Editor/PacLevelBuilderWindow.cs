@@ -109,7 +109,8 @@ public class PacLevelBuilderWindow : EditorWindow
             for (int c = 0; c < cols; c++)
             {
                 int code = levelMap[r, c];
-                Vector2 pos = new Vector2(c * cellSize, -r * cellSize);
+                // 左上象限生成：Y方向翻转
+                Vector2 pos = new Vector2(c * cellSize, (rows - 1 - r) * cellSize);
 
                 // 背景
                 if (BackgroundSprite != null)
@@ -120,7 +121,14 @@ public class PacLevelBuilderWindow : EditorWindow
                 if (tileSprite != null)
                 {
                     float rot = DetermineRotationForTile(r, c, code);
-                    CreateSpriteObject(tileSprite, parent.transform, pos, rot, $"tile_{r}_{c}_code{code}");
+                    bool flipX = false;
+                    bool flipY = false;
+
+                    // 指定翻转
+                    if ((r == 2 && (c == 2 || c == 5 || c == 7 || c == 11))) flipY = true; // 第三排3向下翻转
+                    if ((r == 4 && (c == 2 || c == 5))) flipY = true; // 第五排3向上翻转
+
+                    CreateSpriteObject(tileSprite, parent.transform, pos, rot, $"tile_{r}_{c}_code{code}", flipX, flipY);
                 }
 
                 // Pellet / PowerPellet
@@ -152,7 +160,7 @@ public class PacLevelBuilderWindow : EditorWindow
         };
     }
 
-    GameObject CreateSpriteObject(Sprite sprite, Transform parent, Vector2 pos, float rot, string name)
+    GameObject CreateSpriteObject(Sprite sprite, Transform parent, Vector2 pos, float rot, string name, bool flipX = false, bool flipY = false)
     {
         var go = new GameObject(name);
         go.transform.SetParent(parent, false);
@@ -162,6 +170,8 @@ public class PacLevelBuilderWindow : EditorWindow
         var sr = go.AddComponent<SpriteRenderer>();
         sr.sprite = sprite;
         sr.sortingOrder = name.Contains("_pellet") ? 2 : (name.Contains("_code") ? 1 : 0);
+        sr.flipX = flipX;
+        sr.flipY = flipY;
 
         return go;
     }
