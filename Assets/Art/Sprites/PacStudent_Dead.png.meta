@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cedc0ffa6f9ce994ea6a040a95a54e81
+guid: 785519074ba3d0a428bd7be7179fdfea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8980227336761456341
-    second: PacStudent1_0
+      213: -8142119025955902924
+    second: PacStudent_Dead_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PacStudent1_0
+      name: PacStudent_Dead_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d63be9fe2d20ac70800000000000000
-      internalID: 8980227336761456341
+      spriteID: 43ae2fa72e1610f80800000000000000
+      internalID: -8142119025955902924
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PacStudent1_0: 8980227336761456341
+      PacStudent_Dead_0: -8142119025955902924
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
