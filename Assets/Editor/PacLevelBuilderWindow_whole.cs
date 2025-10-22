@@ -1,5 +1,5 @@
 // PacLevelBuilderWindow.cs
-// Put this file in Assets/Editor
+// 放在 Assets/Editor 文件夹
 
 using UnityEngine;
 using UnityEditor;
@@ -56,7 +56,7 @@ public class PacLevelBuilderWindow : EditorWindow
         PowerPelletSprite = (Sprite)EditorGUILayout.ObjectField("Power Pellet (6)", PowerPelletSprite, typeof(Sprite), false);
         TJunctionSprite = (Sprite)EditorGUILayout.ObjectField("T-Junction (7)", TJunctionSprite, typeof(Sprite), false);
         GhostExitSprite = (Sprite)EditorGUILayout.ObjectField("Ghost Exit (8)", GhostExitSprite, typeof(Sprite), false);
-        BackgroundSprite = (Sprite)EditorGUILayout.ObjectField("Background / Empty (0) optional", BackgroundSprite, typeof(Sprite), false);
+        BackgroundSprite = (Sprite)EditorGUILayout.ObjectField("Background / Empty (0)", BackgroundSprite, typeof(Sprite), false);
 
         cellSize = EditorGUILayout.FloatField("Cell Size", cellSize);
         parentName = EditorGUILayout.TextField("Parent Name", parentName);
@@ -72,6 +72,16 @@ public class PacLevelBuilderWindow : EditorWindow
                     return;
             }
             BuildTopLeft();
+        }
+
+        if (GUILayout.Button("Build Full Level"))
+        {
+            if (!ValidateSprites())
+            {
+                if (!EditorUtility.DisplayDialog("Missing sprites", "Some sprites are unassigned. Continue?", "Yes", "Cancel"))
+                    return;
+            }
+            BuildFullLevel();
         }
 
         if (GUILayout.Button("Clear Parent GameObject"))
@@ -91,6 +101,7 @@ public class PacLevelBuilderWindow : EditorWindow
         return OutsideCornerSprite && OutsideWallSprite && InsideCornerSprite && InsideWallSprite && TJunctionSprite && GhostExitSprite;
     }
 
+    // ------------------- 生成左上象限 -------------------
     void BuildTopLeft()
     {
         GameObject parent = GameObject.Find(parentName);
@@ -109,29 +120,18 @@ public class PacLevelBuilderWindow : EditorWindow
             for (int c = 0; c < cols; c++)
             {
                 int code = levelMap[r, c];
-                // 左上象限生成：Y方向翻转
                 Vector2 pos = new Vector2(c * cellSize, (rows - 1 - r) * cellSize);
 
-                // 背景
                 if (BackgroundSprite != null)
                     CreateSpriteObject(BackgroundSprite, parent.transform, pos, 0f, $"tile_{r}_{c}_bg");
 
-                // 主贴图
                 Sprite tileSprite = GetSpriteForCode(code, false);
                 if (tileSprite != null)
                 {
                     float rot = DetermineRotationForTile(r, c, code);
-                    bool flipX = false;
-                    bool flipY = false;
-
-                    // 指定翻转
-                    if ((r == 2 && (c == 2 || c == 5 || c == 7 || c == 11))) flipY = true; // 第三排3向下翻转
-                    if ((r == 4 && (c == 2 || c == 5))) flipY = true; // 第五排3向上翻转
-
-                    CreateSpriteObject(tileSprite, parent.transform, pos, rot, $"tile_{r}_{c}_code{code}", flipX, flipY);
+                    CreateSpriteObject(tileSprite, parent.transform, pos, rot, $"tile_{r}_{c}_code{code}");
                 }
 
-                // Pellet / PowerPellet
                 if (code == 5 && EmptyWithPelletSprite != null)
                     CreateSpriteObject(EmptyWithPelletSprite, parent.transform, pos, 0f, $"tile_{r}_{c}_pellet");
                 if (code == 6 && PowerPelletSprite != null)
@@ -143,6 +143,90 @@ public class PacLevelBuilderWindow : EditorWindow
         EditorUtility.DisplayDialog("Done", "Top-left quadrant built.", "OK");
     }
 
+    // ------------------- 四象限生成 -------------------
+    void BuildFullLevel()
+    {
+        BuildTopLeft();
+        GameObject parent = GameObject.Find(parentName);
+        if (parent == null) return;
+
+        MirrorHorizontal(parent); // 右上
+        MirrorVertical(parent);   // 左下
+        MirrorBoth(parent);       // 右下
+        AdjustCamera(parent);
+
+        EditorUtility.DisplayDialog("Done", "Full level (four quadrants) built.", "OK");
+    }
+
+    void MirrorHorizontal(GameObject parent)
+    {
+        float maxX = GetMaxX(parent.transform);
+        foreach (Transform tile in parent.transform)
+        {
+            if (tile.name.Contains("_code") || tile.name.Contains("_bg") || tile.name.Contains("_pellet"))
+            {
+                Vector3 pos = tile.localPosition;
+                pos.x = maxX - pos.x;
+                CreateSpriteObject(tile.GetComponent<SpriteRenderer>().sprite, parent.transform, new Vector2(pos.x, pos.y), tile.localEulerAngles.z, tile.name + "_HR", tile.GetComponent<SpriteRenderer>().flipX, tile.GetComponent<SpriteRenderer>().flipY);
+            }
+        }
+    }
+
+    void MirrorVertical(GameObject parent)
+    {
+        float maxY = GetMaxY(parent.transform);
+        foreach (Transform tile in parent.transform)
+        {
+            if (tile.name.Contains("_code") || tile.name.Contains("_bg") || tile.name.Contains("_pellet"))
+            {
+                Vector3 pos = tile.localPosition;
+                pos.y = -pos.y;
+                CreateSpriteObject(tile.GetComponent<SpriteRenderer>().sprite, parent.transform, new Vector2(pos.x, pos.y), (tile.localEulerAngles.z + 180f) % 360f, tile.name + "_VD", tile.GetComponent<SpriteRenderer>().flipX, !tile.GetComponent<SpriteRenderer>().flipY);
+            }
+        }
+    }
+
+    void MirrorBoth(GameObject parent)
+    {
+        float maxX = GetMaxX(parent.transform);
+        float maxY = GetMaxY(parent.transform);
+        foreach (Transform tile in parent.transform)
+        {
+            if (tile.name.Contains("_code") || tile.name.Contains("_bg") || tile.name.Contains("_pellet"))
+            {
+                Vector3 pos = tile.localPosition;
+                pos.x = maxX - pos.x;
+                pos.y = -pos.y;
+                CreateSpriteObject(tile.GetComponent<SpriteRenderer>().sprite, parent.transform, new Vector2(pos.x, pos.y), (tile.localEulerAngles.z + 180f) % 360f, tile.name + "_HRVD", tile.GetComponent<SpriteRenderer>().flipX, !tile.GetComponent<SpriteRenderer>().flipY);
+            }
+        }
+    }
+
+    float GetMaxX(Transform parent)
+    {
+        float max = float.MinValue;
+        foreach (Transform t in parent)
+            if (t.localPosition.x > max) max = t.localPosition.x;
+        return max;
+    }
+
+    float GetMaxY(Transform parent)
+    {
+        float max = float.MinValue;
+        foreach (Transform t in parent)
+            if (t.localPosition.y > max) max = t.localPosition.y;
+        return max;
+    }
+
+    void AdjustCamera(GameObject parent)
+    {
+        float maxX = GetMaxX(parent.transform);
+        float maxY = GetMaxY(parent.transform);
+        Camera.main.transform.position = new Vector3(maxX / 2f, maxY / 2f, -10f);
+        Camera.main.orthographicSize = Mathf.Max(maxX, maxY) / 2f + 1f;
+    }
+
+    // ------------------- 工具方法 -------------------
     Sprite GetSpriteForCode(int code, bool baseOnly)
     {
         return code switch
