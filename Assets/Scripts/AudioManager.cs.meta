@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: edb9940cbc26d4042ad5e5e5ba45df42
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bgAudioSource: {instanceID: 0}
+  - sfxAudioSource: {instanceID: 0}
+  - bgIntro: {fileID: 8300000, guid: b28b2ee6b2028534ca8e2a86d7bd29c8, type: 3}
+  - bgStartScene: {fileID: 8300000, guid: 3b450be320921ec449d8c6c3117b4f53, type: 3}
+  - bgGhostNormal: {fileID: 8300000, guid: 9b77e4c9d2b9b4346814836d36f01b57, type: 3}
+  - bgGhostScared: {fileID: 8300000, guid: 5eb0fc1d3b059dd48bfd4d7bc776e130, type: 3}
+  - bgGhostDead: {fileID: 8300000, guid: f08b0f05be7e9834e8cccd09092a7a3c, type: 3}
+  - sfxMove: {fileID: 8300000, guid: a6c287567ac7ac740940f7c7a2b37b9f, type: 3}
+  - sfxEatPellet: {fileID: 8300000, guid: 4dcc6f25f82d63e4490145eb5af15781, type: 3}
+  - sfxWallHit: {fileID: 8300000, guid: 8e848524ccc5e6543b70eb77ad4f90f5, type: 3}
+  - sfxDeath: {fileID: 8300000, guid: 965130562953dcb42b9fabb5a8aa7df4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
